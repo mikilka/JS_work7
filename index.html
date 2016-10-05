@@ -31,8 +31,8 @@
             e.preventDefault();
             $id = $('.topmenu a:hover').attr('href');
             $tabs = $($id);
-            $tabs.toggle();
-//            console.log($link);
+            $('.tab').hide(0);
+            $tabs.show();
             console.log($tabs);
         });
 
