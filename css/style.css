@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#tabs {
+    width: 50vw;
+    margin: 10px 0 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.topmenu {
+    width: 48.5vw;
+    margin: .5vw .5vw 0 .5vw;
+    background: #eee;
+    padding-left: 5px;
+    border-radius: 2px;
+}
+
+.topmenu li {
+    display: inline-block;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-radius: 2px;
+}
